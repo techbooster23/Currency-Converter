@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
     background-color: #86B6FA;
     color: #11235A;
@@ -67,4 +68,12 @@ form button {
     background-color: #4477CE;
     color: white;
     font-size: 1.15rem;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #11235A;
+    font-weight: 600;
+    margin-top: 1rem;
 }
